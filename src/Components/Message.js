@@ -14,7 +14,7 @@ const Message = ({ message }) => {
           <div className="col-md-3 border border-primary rounded-circle rounded-sm bg-dark"></div>
           <div className="col-9">
             <p className="fw-bold">{message.name}</p>
-            <p>{message.text}</p>
+            <p className="text-wrap">{message.text}</p>
           </div>
         </div>
       </div>
